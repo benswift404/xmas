@@ -59,3 +59,9 @@ OTHER
   font-size: 15px;
   color: black;
 }
+/***********************
+          GIF
+***********************/
+@-webkit-keyframes gif {
+  0% { }
+}
