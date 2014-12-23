@@ -2,22 +2,25 @@
           Xmas
 ***********************/
 body {
-  background-color: #930000;
-  color: green;
+  background-image: url("snow.png");
   text-align: center;
+
 }
 
 h1 {
   font-size: 50px;
   font-family: "Comic Sans MS";
+  color: red;
 }
 
 .paragraph {
   font-size: 35px;
   font-family: "Comic Sans MS";
+  color: black;
 }
 
 #foot {
   font-family: Verdana;
   font-size: 15px;
+  color: black;
 }
