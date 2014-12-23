@@ -1,0 +1,23 @@
+/***********************
+          Xmas
+***********************/
+body {
+  background-color: #930000;
+  color: green;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Comic Sans MS";
+}
+
+.paragraph {
+  font-size: 35px;
+  font-family: "Comic Sans MS";
+}
+
+#foot {
+  font-family: Verdana;
+  font-size: 15px;
+}
