@@ -13,6 +13,10 @@ body {
   color: red;
   -webkit-animation: colors 1s;
   -webkit-animation-iteration-count: infinite;
+  -moz-animation: colors 1s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: colors 1s;
+  -o-animation-iteration-count: infinite;
 }
 /***********************
         Marquee
@@ -93,5 +97,21 @@ OTHER
     color: red;
   } 100% {
     color: green;
+  }
+}
+
+@-moz-keyframes colors {
+  0% {
+    color: red;
+  } 100% {
+      color: green;
+  }
+}
+
+@-o-keyframes colors {
+  0% {
+    color: red;
+  } 100% {
+      color: green;
   }
 }
