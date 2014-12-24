@@ -11,11 +11,11 @@ body {
   font-size: 50px;
   font-family: "Comic Sans MS";
   color: red;
-  -webkit-animation: colors 1s;
+  -webkit-animation: colors 2s;
   -webkit-animation-iteration-count: infinite;
-  -moz-animation: colors 1s;
+  -moz-animation: colors 2s;
   -moz-animation-iteration-count: infinite;
-  -o-animation: colors 1s;
+  -o-animation: colors 2s;
   -o-animation-iteration-count: infinite;
 }
 /***********************
@@ -95,23 +95,29 @@ OTHER
 @-webkit-keyframes colors {
   0% {
     color: red;
-  } 100% {
+  } 50% {
     color: green;
+  } 100% {
+    color: red;
   }
 }
 
 @-moz-keyframes colors {
   0% {
     color: red;
+  } 50% {
+    color: green;
   } 100% {
-      color: green;
+    color: red;
   }
 }
 
 @-o-keyframes colors {
   0% {
     color: red;
+  } 50% {
+    color: green;
   } 100% {
-      color: green;
+    color: red;
   }
 }
