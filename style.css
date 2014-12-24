@@ -11,6 +11,8 @@ body {
   font-size: 50px;
   font-family: "Comic Sans MS";
   color: red;
+  -webkit-animation: color 5s;
+  -webkit-animation-iteration-count: infinite;
 }
 /***********************
         Marquee
@@ -84,4 +86,12 @@ OTHER
 .button a {
   text-decoration: none;
   color: black;
+}
+
+@-webkit-keyframes colors {
+  0% {
+    color: red;
+  } 100% {
+    color: green;
+  }
 }
