@@ -11,7 +11,7 @@ body {
   font-size: 50px;
   font-family: "Comic Sans MS";
   color: red;
-  -webkit-animation: color 5s;
+  -webkit-animation: colors 1s;
   -webkit-animation-iteration-count: infinite;
 }
 /***********************
