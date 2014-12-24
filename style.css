@@ -61,7 +61,16 @@ OTHER
 }
 /***********************
           GIF
-***********************/
-@-webkit-keyframes gif {
-  0% { }
+***********************
+@-webkit-keyframes paper {
+  0% { background-image: url("snow2,png"); }
+  100% { background-image: url("snow.png"); }
 }
+@-moz-keyframes paper {
+  0% { background-image: url("snow2,png"); }
+  100% { background-image: url("snow.png"); }
+}
+@-keyframes paper {
+  0% { background-image: url("snow2,png"); }
+  100% { background-image: url("snow.png"); }
+} */
