@@ -6,6 +6,12 @@ body {
   text-align: center;
   -webkit-animation: wallpaper 20s;
   -webkit-animation-iteration-count: infinite;
+  -moz-animation: wallpaper 20s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: wallpaper 20s;
+  -o-animation-iteration-count: infinite;
+  animation: wallpaper 20s;
+  animation-iteration-count: infinite;
 }
 
 #banner {
@@ -123,8 +129,56 @@ OTHER
   }
 }
 
+@keyframes colors {
+  0% {
+    color: red;
+  } 50% {
+    color: green;
+  } 100% {
+    color: red;
+  }
+}
+
 
 @-webkit-keyframes wallpaper{
+  0% {
+    background-image: url("snow.png");
+  } 25% {
+    background-image: url("snow2.png");
+  } 50% {
+    background-image: url("gift.png");
+  } 100% {
+    background-image: url("snow.png");
+  }
+}
+
+
+@-moz-keyframes wallpaper{
+  0% {
+    background-image: url("snow.png");
+  } 25% {
+    background-image: url("snow2.png");
+  } 50% {
+    background-image: url("gift.png");
+  } 100% {
+    background-image: url("snow.png");
+  }
+}
+
+
+@-o-keyframes wallpaper{
+  0% {
+    background-image: url("snow.png");
+  } 25% {
+    background-image: url("snow2.png");
+  } 50% {
+    background-image: url("gift.png");
+  } 100% {
+    background-image: url("snow.png");
+  }
+}
+
+@keyframes wallpaper{
   0% {
     background-image: url("snow.png");
   } 25% {
