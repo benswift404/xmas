@@ -4,7 +4,8 @@
 body {
   background-image: url("snow.png");
   text-align: center;
-
+  -webkit-animation: wallpaper 20s;
+  -webkit-animation-iteration-count: infinite;
 }
 
 #banner {
@@ -119,5 +120,18 @@ OTHER
     color: green;
   } 100% {
     color: red;
+  }
+}
+
+
+@-webkit-keyframes wallpaper{
+  0% {
+    background-image: url("snow.png");
+  } 25% {
+    background-image: url("snow2.png");
+  } 50% {
+    background-image: url("gift.png");
+  } 100% {
+    background-image: url("snow.png");
   }
 }
